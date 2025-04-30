@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height:10vh;
+  width:100vw;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  background-color: #457B9D;
+}
+
+.navbutton a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+
+.navbuttonText{
+  size: 5vh;
+}
+.container {
+  height:100vh;
+  width:100vw;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-color: #1D3557;
+  
+  
+}
+
+.setScheduleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E63946;
+  margin-top: 10vh;
+  margin-left: 32.5vw;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.setScheduleContainer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+input, button {
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+input {
+  background-color: #fff;
+  color: #000;
+}
+
+button {
+  background-color: #A8DADC;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #A8DADC;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  text-align: left;
+  word-wrap: break-word;
+}
