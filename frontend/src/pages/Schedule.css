@@ -25,3 +25,68 @@
   .navbuttonText{
     size: 5vh;
   }
+
+
+
+/* Timeline background and layout */
+.rct-calendar-header,
+.rct-dateHeader,
+.rct-header-root {
+  background-color: #1D3557 !important;
+  color: #CDEAE5 !important;
+  border-bottom: none !important;
+}
+
+.rct-horizontal-lines .rct-hl-even,
+.rct-horizontal-lines .rct-hl-odd {
+  background-color: #1D3557 !important;
+  border: none !important;
+}
+
+.rct-vl {
+  border-left: none !important;
+}
+
+/* Sidebar styling (appliance groups) */
+.rct-sidebar {
+  background-color: #457B9D !important;
+}
+
+.rct-sidebar .rct-sidebar-row {
+  background-color: #457B9D !important;
+  color: #F1FAEE !important;
+  font-weight: bold;
+  border-bottom: 1px solid #31587A !important;
+}
+
+/* Timeline items (reservations) */
+.rct-item {
+  background-color: #A8DADC !important;
+  color: #1D3557 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+  font-weight: 500;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.rct-item:hover {
+  background-color: #77ABBD !important;
+  color: white !important;
+}
+
+/* Selected item */
+.rct-item.selected {
+  background-color: #E63946 !important;
+  color: white !important;
+}
+
+/* Minor timeline tweaks */
+.rct-header-root, .rct-vertical-lines {
+  border: none !important;
+}
+
+.rct-scroll {
+  background-color: #1D3557 !important;
+}

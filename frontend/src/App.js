@@ -15,11 +15,11 @@ function App() {
     axios.get("http://localhost:5000/api/schedule")
       .then(res => {
         setSchedule(res.data);
-        console.log(res.data);
       });
   }, []);
 
   const reserve = () => {
+    console.log(schedule)
     const reservation = { 
       name, 
       startTime, 

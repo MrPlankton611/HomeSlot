@@ -83,6 +83,7 @@ def get_schedule():
                     "endTime": row[3],
                     "success": row[4]
                 })
+    print(jsonify(array))
     return jsonify(array)
 
 @app.route("/api/reserve", methods=["POST"])

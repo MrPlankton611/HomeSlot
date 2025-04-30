@@ -1,3 +1,4 @@
 Name,Appliance,StartTime,EndTime,Success
-John,Computer,00:00,13:00,"Existing reservation found, overwriting it"
-Mango,Oculus,00:00,13:00,Reservation successful
+Shamgar,Microwave,00:00,13:00,Reservation successful
+John,Computer,00:00,13:00,Reservation successful
+Adrian,Oculus,14:00,15:00,Reservation successful

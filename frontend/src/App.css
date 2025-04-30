@@ -7,14 +7,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1D3557; /* dark blue */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #F1FAEE; /* soft white */
   width: 100%;
   box-sizing: border-box;
 }
@@ -25,36 +25,35 @@
   justify-content: center;
   align-items: center;
   display:flex;
-  background-color: #457B9D;
+  background-color: #457B9D; /* cerulean */
 }
 
-.navbutton a{
+.navbutton a {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
-  color: black;
+  color: #F1FAEE; /* white nav text */
 }
 
-.navbuttonText{
+.navbuttonText {
   size: 5vh;
 }
+
 .container {
   height:100vh;
   width:100vw;
   justify-content: flex-start;
   align-items: flex-end;
-  background-color: #1D3557;
-  
-  
+  background-color: #1D3557; /* deep background */
 }
 
 .setScheduleContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #E63946;
+  background-color: #457B9D; /* same as sidebar/timeline */
   margin-top: 10vh;
   margin-left: 32.5vw;
   padding: 2rem;
@@ -62,7 +61,7 @@
   width: 90%;
   max-width: 600px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  color: white;
+  color: #F1FAEE; /* soft white text */
 }
 
 .setScheduleContainer form {
@@ -84,19 +83,19 @@ input, button {
 }
 
 input {
-  background-color: #fff;
-  color: #000;
+  background-color: #F1FAEE; /* light input bg */
+  color: #1D3557; /* dark text */
 }
 
 button {
-  background-color: #A8DADC;
-  color: black;
+  background-color: #A8DADC; /* light teal */
+  color: #1D3557; /* readable dark text */
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
 
 button:hover {
-  background-color: #A8DADC;
+  background-color: #77ABBD; /* hover effect */
 }
 
 ul {
@@ -112,7 +111,8 @@ ul {
 }
 
 li {
-  background: rgba(255, 255, 255, 0.1);
+  background: #31587A; /* lapis lazuli for log cards */
+  color: #F1FAEE; /* soft white text */
   padding: 0.75rem;
   border-radius: 0.5rem;
   text-align: left;
