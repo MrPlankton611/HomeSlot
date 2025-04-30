@@ -1,0 +1,3 @@
+Name,Appliance,StartTime,EndTime,Success
+John,Computer,00:00,13:00,"Existing reservation found, overwriting it"
+Mango,Oculus,00:00,13:00,Reservation successful
